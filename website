@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Companies interested in working with us will be able to find contact forms below">
+        <title> Forms for companies </title>
+</head>
+
+<body>
+
+    <h1>You will find the forms for companies here</h1>
+    <hr />
+    <h3><i>*please watch the below video before filling in the questionnaire</i></h3>
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/E0NosBgl8vg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br />
+    <p>Please note that prior to completing the document, users should consider the lawful bases for their processing of
+        personal information. The lawful bases for processing are set out in Article 6 of the GDPR. Filling out this
+        form and pressing <b>send</b> will be treated as clear and explicit consent to the processing terms and
+        conditions as set out in our Privacy Policy.</p>
+    
+    <form>
+        <fieldset>
+          <legend>Please fill in all the boxes below before pressing submit</legend>
+          <p>
+            <label>NAME</label>
+            <input type = "text"
+                   id = "myName"
+                   value = "your first name"
+                   size = "54" />
+          </p>
+          <p>
+            <label>LAST NAME</label>
+            <input type = "last name"
+                    id = "myLastname"
+                    value = "your last name"
+                    size = "47" />
+          </p>
+          <p>
+              <label>COMPANY NAME</label>
+              <input type = "company name"
+              id = "myCompanyname"
+              value = "the name of the company"
+              size = "41,50" />
+          </p>
+          <p>
+              <label>EMAIL ADDRESS</label>
+              <input type = "email address"
+              id = "myEmailaddress"
+              value = "personal / business email address" 
+              size = "42" />
+          </p>
+          <p>
+            <label>POSTAL CODE</label>
+            <input type = "postal code"
+            id = "myPostalcode"
+            value = "postal code as registered in the companies house"
+            size = "45" />
+        </p>
+        <p>
+            <label>COUNTRY</label>
+            <input type = "country"
+            id = "myCountry"
+            value = "country of origin"
+            size = "50"/>
+        </p>
+        <button>SUBMIT</button>
+        </fieldset>
+      </form>
+
+</body>
+
+
+</html>
